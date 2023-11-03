@@ -1,0 +1,11 @@
+/my_package/my_node:
+  ros__parameters:
+    use_mag: False
+    publish_tf: True
+    map_frame_id: "odom"
+    frame_id: "base_link"
+    subscribe_scan_cloud: True
+    subscribe_depth: False
+    subscribe_rgb: False
+    #subscribe_stereo: True
+    approx_sync: True
